@@ -5,7 +5,6 @@ const locationField = document.querySelector(".time_location p");
 const dateAndTimeField = document.querySelector(".time_location span");
 const conditionField = document.querySelector(".condition p");
 const searchField = document.querySelector(".search_area");
-// const searchButton = document.querySelector(".search_button");
 const form = document.querySelector("form");
 
 form.addEventListener('submit', searchForLocation)
